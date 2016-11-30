@@ -1,7 +1,23 @@
 {
     "name": "dgg/dgg-package",
+    "type": "library",
     "description": "A short description of what your package does",
+    "keywords": ["test"],
+    "license": "",
+    "authors": [
+        {
+            "name": "Daniel Guerrero",
+            "email": "",
+            "homepage": "http://www.todoinformatica.com.es/",
+            "role": "Web developer"
+        }
+    ],
     "require": {
-        "php": "^5.3.3 || ^7.0",
+        "php": "^5.3.3 || ^7.0"
+    }
+    "autoload": {
+        "psr-0": {
+            "Dg\\DgPackage" : "src"
+        }
     }
 }
