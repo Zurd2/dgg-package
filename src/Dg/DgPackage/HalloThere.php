@@ -1,5 +1,7 @@
 <?php
-namespace Weaverryan\DangerZone;
+
+namespace Dg\DgPackage;
+
 /**
  * A terribly useful class
  *
